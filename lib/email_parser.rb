@@ -4,7 +4,7 @@
 # or whitespace (' ').
 class EmailParser
   @parsing = (" "), (" , ")
-  def initialize
+  def initialize(parsing)
     @parsing = parsing 
   end 
 end 
