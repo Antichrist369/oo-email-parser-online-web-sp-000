@@ -15,7 +15,7 @@ class EmailParser
     do |address| 
       address.split(',')
     end
-    csv_emails.uniq 
+    @csv_emails.uniq 
   end 
    
 end 
