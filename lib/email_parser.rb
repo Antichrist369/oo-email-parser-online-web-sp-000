@@ -4,7 +4,7 @@
 # or whitespace (' ').
 class EmailParser
   attr_accessor :parse 
-  @parse = ((" "), (","))
+  @parse = [(" "), (",")]
   def initialize(parse)
     @parse = parse
   end 
