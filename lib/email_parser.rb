@@ -6,6 +6,6 @@ class EmailParser
   attr_accessor :parse 
   @parse = [(" "),(",")]
   def initialize(parse)
-    @parse = parse
+    @parse.each = parse
   end 
 end 
